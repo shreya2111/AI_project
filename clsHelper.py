@@ -253,7 +253,7 @@ class MatchRougeMetric(MetricBase):
 
 class MatchSumLoader(JsonLoader):
     
-    def __init__(self, candidate_num, encoder, max_len=180):
+    def __init__(self, candidate_num, encoder, max_len=30):
         fields = {'text_id': 'text_id',
              'candidate_id': 'candidate_id',
                'summary_id': 'summary_id'
